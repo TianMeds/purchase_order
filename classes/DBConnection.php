@@ -4,9 +4,9 @@ if(!defined('DB_SERVER')){
 }
 class DBConnection{
 
-    private $host = "192.168.150.213";
-    private $username = "purchase_order_db";
-    private $password = "purchase_order_db";
+    private $host = "localhost";
+    private $username = "root";
+    private $password = "";
     private $database = "purchase_order_db";
     
     public $conn;
