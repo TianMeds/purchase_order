@@ -3,7 +3,7 @@ $dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=
 if(!defined('base_url')) define('base_url','http://http://apcwebprog.csf.ph/~cbmedallada/purchase_order/');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
 if(!defined('dev_data')) define('dev_data',$dev_data);
-if(!defined('DB_SERVER')) define('DB_SERVER',"192.168.150.213");
+if(!defined('DB_SERVER')) define('DB_SERVER',"http://apcwebprog.csf.ph");
 if(!defined('DB_USERNAME')) define('DB_USERNAME',"purchase_order_db");
 if(!defined('DB_PASSWORD')) define('DB_PASSWORD',"purchase_order_db");
 if(!defined('DB_NAME')) define('DB_NAME',"purchase_order_db");
