@@ -4,7 +4,7 @@ if(!defined('DB_SERVER')){
 }
 class DBConnection{
 
-    private $servername = "http://apcwebprog.csf.ph/notmydatabase/";
+    private $host = "192.168.150.213";
     private $username = "purchase_order_db";
     private $password = "purchase_order_db";
     private $database = "purchase_order_db";
@@ -15,7 +15,7 @@ class DBConnection{
 
         if (!isset($this->conn)) {
             
-            $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->database);
+            $this->conn = new mysqli($this->host, $this->username, $this->password, $this->database);
             
             if (!$this->conn) {
                 echo 'Cannot connect to database server';
