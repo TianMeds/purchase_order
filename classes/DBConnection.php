@@ -4,7 +4,7 @@ if(!defined('DB_SERVER')){
 }
 class DBConnection{
 
-    private $host = "192.168.150.213";
+    private $host = "http://apcwebprog.csf.ph/notmydatabase/";
     private $username = "purchase_order_db";
     private $password = "purchase_order_db";
     private $database = "purchase_order_db";
