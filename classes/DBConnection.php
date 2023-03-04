@@ -4,10 +4,10 @@ if(!defined('DB_SERVER')){
 }
 class DBConnection{
 
-    $servername = "192.168.150.213";
-    $username = "purchase_order_db";
-    $password = "purchase_order_db";
-    $dbname = "purchase_order_db";
+    private $servername = "192.168.150.213";
+    private $username = "purchase_order_db";
+    private $password = "purchase_order_db";
+    private $dbname = "purchase_order_db";
     
     
     public $conn;
